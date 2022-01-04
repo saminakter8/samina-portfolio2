@@ -17,13 +17,14 @@ h4{
 h5{
     color:black;
 }
-section{
+.flexible-container{
     display:flex;
-    
+
 }
 .half-width{
     width:50%;
     margin:20px 25px;
+
 }
 .half-width img{
     width:40%;
@@ -46,4 +47,31 @@ section{
     background-repeat:no-repeat;
     background-position:right;
 
+}
+.shadow{
+    box-shadow:10px 10px 20px orangered;
+    width:50%;
+    margin:20px 25px;
+    padding:5px 10px;
+    border-radius:5px;
+    border-left:4px solid;
+    border-image:linear-gradient(orangered,yellow);
+    border-image-slice:1;
+    
+
+    
+}
+.experience-area{
+    background-image:url(exp-bg.png);
+    background-repeat:no-repeat;
+    background-position:left;
+    
+}
+#web-developer-exp{
+    border-left:4px solid;
+    border-image:linear-gradient(blue, cyan);
+    border-image-slice:1;
+}
+footer p{
+    text-align:center;
 }
