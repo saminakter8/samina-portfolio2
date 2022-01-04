@@ -19,6 +19,7 @@ h5{
 }
 section{
     display:flex;
+    
 }
 .half-width{
     width:50%;
@@ -39,4 +40,10 @@ section{
     background-image:url(top-banner.png);
     background-repeat:no-repeat;
     padding:15px 20px;
+}
+.bottom-banner{
+    background-image:url(dream-bg.png);
+    background-repeat:no-repeat;
+    background-position:right;
+
 }
